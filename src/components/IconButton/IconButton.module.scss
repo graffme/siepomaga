@@ -13,6 +13,7 @@
 
   border-radius: 100px;
   box-shadow: 0px 3px 4px 0px $primary;
+  transition: all 1s;
 
   .buttonWrapper {
     left: -20px;
@@ -31,6 +32,10 @@
 
     animation: heartBeat 2s infinite;
   }
+}
+
+.iconButton:hover {
+  background-color: #DE1E25;
 }
 
 @keyframes heartBeat {

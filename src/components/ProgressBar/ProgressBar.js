@@ -8,7 +8,6 @@ const ProgressBar = ({ className }) => {
     <AppConsumer>
      {context =>
        <div className={classNames(styles.progressBar, className)}>
-         <span>Wsparło {context.payments_total_count} osób</span>
          <div className={styles.progressOuter}>
            <div className={styles.progressInner}>
              <span>{context.funds_current} zł ({context.fund_percentage}%)</span>

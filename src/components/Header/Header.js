@@ -4,24 +4,20 @@ import styles from './Header.module.scss';
 import IconButton from '../IconButton/IconButton.js';
 import ProgressBar from '../ProgressBar/ProgressBar.js';
 
-const Header = ({ title }) => (
+const Header = ({ title, payments_total_count }) => (
   <header className={styles.header}>
     <div className="container">
-      <div className="row">
-
-        <div className="col-9">
+      <div className="row align-items-center bottom20">
+        <div className="col-lg-9">
           <h1>{title}</h1>
         </div>
-
-        <div className="col-3">
-          <IconButton onClick={() => console.log('Thank you!')} className="bottom20"/>
+        <div className="col-lg-3">
+          <IconButton onClick={() => console.log('Thank you!')} />
         </div>
-
       </div>
-      <div className="row">
-
-      <ProgressBar />
-
+      <div className="row justify-content-center">
+        <span className={styles.totalPayments}>Wsparło {payments_total_count} osób</span>
+        <ProgressBar />
       </div>
     </div>
   </header>

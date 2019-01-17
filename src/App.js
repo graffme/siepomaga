@@ -15,10 +15,10 @@ class App extends Component {
         <AppConsumer>
          {context =>
            <div className="app">
-             <Header title={context.title}/>
+             <Header title={context.title} payments_total_count={context.payments_total_count}/>
              <div className="container main-container">
                <div className="row">
-                 <div className="col-8">
+                 <div className="col-lg-8">
                    <Description description={context.description}/>
                    <List payments={context.payments}/>
                  </div>
