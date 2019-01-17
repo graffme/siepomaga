@@ -17,8 +17,4 @@ const List = () => (
   </section>
 )
 
-List.propTypes = {
-  payments: PropTypes.object.isRequired,
-}
-
 export default List;
