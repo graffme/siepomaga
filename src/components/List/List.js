@@ -1,20 +1,22 @@
 import React from 'react';
 import '../../styles/styles.scss';
-import PropTypes from 'prop-types';
 import styles from './List.module.scss';
 import ListItem from '../ListItem/ListItem.js';
 import StandardButton from '../StandardButton/StandardButton.js';
 
-const List = () => (
-  <section className={styles.list}>
-    <h2 className="bottom20">Wsparli</h2>
+const List = (props) => {
+  const payments = props.payments;
+  const itemsList = payments.map((payment) =>
+    <ListItem  amount={payment.amount} className="tile bottom30" comment_text={payment.comment_text} paid_at={payment.paid_at} signature={payment.signature} />
+  );
 
-    <ListItem  amount={100} className="tile bottom30" comment_text="Lorem ipsum dolor sit ament" paid_at="przed chwilą" />
-
-    <ListItem  amount={100} className="tile bottom30" comment_text="Lorem ipsum dolor sit ament" paid_at="przed chwilą" />
-
-    <StandardButton label="Pokaż więcej" onClick={() => console.log('Clicked')} />
-  </section>
-)
+  return (
+    <section className={styles.list}>
+      <h2 className="bottom20">Wsparli</h2>
+      {itemsList}
+      <StandardButton label="Pokaż więcej" onClick={() => console.log('Clicked')} />
+    </section>
+  );
+}
 
 export default List;

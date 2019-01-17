@@ -4,13 +4,13 @@ import styles from './Header.module.scss';
 import IconButton from '../IconButton/IconButton.js';
 import ProgressBar from '../ProgressBar/ProgressBar.js';
 
-const Header = () => (
+const Header = ({ title }) => (
   <header className={styles.header}>
     <div className="container">
       <div className="row">
 
         <div className="col-9">
-          <h1>Gazeta Wyborcza wspiera 27. finał WOŚP</h1>
+          <h1>{title}</h1>
         </div>
 
         <div className="col-3">

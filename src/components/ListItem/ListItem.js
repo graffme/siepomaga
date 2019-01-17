@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import styles from './ListItem.module.scss';
 import avatar from '../../assets/img/face.png';
+import { formatDate } from './helpers.js';
 
 const ListItem = ({ amount, className, comment_text, paid_at, photo_url, signature }) => (
   <div className={classNames(styles.listItem, className)}>
@@ -12,7 +13,7 @@ const ListItem = ({ amount, className, comment_text, paid_at, photo_url, signatu
 
     <div className={styles.itemContent}>
       <h3>{signature}</h3>
-      <span>{paid_at}</span>
+      <span>{formatDate(paid_at)}</span>
       <p>{comment_text}</p>
     </div>
 
