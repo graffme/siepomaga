@@ -1,0 +1,43 @@
+@import '../../styles/styles.scss';
+
+.iconButton {
+  width: 100%;
+  padding: 15px 25px;
+
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+
+  background-color: $secondary;
+
+  border-radius: 100px;
+  box-shadow: 0px 3px 4px 0px $primary;
+
+  .buttonWrapper {
+    left: -20px;
+    position: relative;
+  }
+
+  span {
+    left: 40px;
+    position: relative;
+  }
+
+  img {
+    position: absolute;
+    height: 30px;
+    width: auto;
+
+    animation: heartBeat 2s infinite;
+  }
+}
+
+@keyframes heartBeat {
+  0% {transform: scale(0.8);}
+  10% {transform: scale(1);}
+  20% {transform: scale(0.8);}
+  30% {transform: scale(1);}
+  40% {transform: scale(0.8);}
+  100% {transform: scale(0.8);}
+}

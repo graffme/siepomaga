@@ -1,0 +1,129 @@
+@import '../../styles/variables.scss';
+
+.progressBar {
+  color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.progressOuter {
+  padding: 15px;
+
+  background-color: #FFF;
+
+  border-radius: 100px;
+  box-shadow: 0px 3px 4px 0px #BDC3C7;
+}
+
+.progressInner {
+  position: relative;
+  overflow: hidden;
+
+  background-color: $background;
+
+  border-radius: 100px;
+  box-shadow: inset 0px 3px 4px 0px #BDC3C7;
+
+  span {
+    display: block;
+    padding: 5px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+    color: $primary;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .progressPercent {
+    height: 100%;
+    overflow: hidden;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+
+    background-color: $primary;
+    background-image: linear-gradient(to right, $primary, $primaryHover);
+
+    animation: progress 2s ease-out;
+  }
+}
+@keyframes progress {
+  0% {width: 0;}
+  100% {width: 60%}
+}
+
+
+//bubble animation
+.bubbleAnimation {
+  position: relative;
+  height: 100%;
+  position: relative;
+  text-align: left;
+  width: 100%;
+
+  .bubble {
+    display: inline-block;
+    height: 8px;
+    left: 30%;
+    position: absolute;
+    width: 8px;
+
+    background-color: #FFF;
+    opacity: 0.2;
+
+    animation: moveUp 3.5s infinite, moveSides 2s ease-in-out 0.5s infinite alternate;
+    border-radius: 10px;
+  }
+
+  .x1 {
+    left: 10%;
+    animation: moveUp 3.5s infinite, moveSides 1.5s ease-in-out 1s infinite alternate;
+  }
+
+  .x2 {
+    left: 30%;
+    animation: moveUp 4s infinite, moveSides 2s ease-in-out 2s infinite alternate;
+  }
+
+  .x3 {
+    left: 50%;
+    animation: moveUp 3.5s infinite, moveSides 1.5s ease-in-out 1s infinite alternate;
+  }
+
+  .x4 {
+    left: 60%;
+    animation: moveUp 2.5s infinite, moveSides 1.5s ease-in-out 0.5s infinite alternate;
+  }
+
+  .x5 {
+    left: 70%;
+    animation: moveUp 3.5s infinite, moveSides 1s ease-in-out infinite alternate;
+  }
+
+  .x6 {
+    left: 90%;
+    animation: moveUp 4s infinite, moveSides 2s ease-in-out 1s infinite alternate;
+  }
+}
+@keyframes moveUp {
+    0% {
+        top: 120%;
+    }
+    100% {
+        top: -40%;
+    }
+}
+
+@keyframes moveSides {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:10px;
+    }
+}
