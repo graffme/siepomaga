@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/siepomaga/precache-manifest.1bedada01dc6452159fe0199be1f2b63.js"
+  "/siepomaga/precache-manifest.25b3f1ab807c1021ee0824ca86bf6fa2.js"
 );
 
 workbox.clientsClaim();

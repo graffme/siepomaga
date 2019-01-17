@@ -1,16 +1,16 @@
 {
-  "main.css": "/siepomaga/static/css/main.8c31174a.chunk.css",
-  "main.js": "/siepomaga/static/js/main.681c1a0b.chunk.js",
-  "main.js.map": "/siepomaga/static/js/main.681c1a0b.chunk.js.map",
+  "main.css": "/siepomaga/static/css/main.4531a09e.chunk.css",
+  "main.js": "/siepomaga/static/js/main.986ee907.chunk.js",
+  "main.js.map": "/siepomaga/static/js/main.986ee907.chunk.js.map",
   "static/css/1.7347b5f7.chunk.css": "/siepomaga/static/css/1.7347b5f7.chunk.css",
-  "static/js/1.7384ae4e.chunk.js": "/siepomaga/static/js/1.7384ae4e.chunk.js",
-  "static/js/1.7384ae4e.chunk.js.map": "/siepomaga/static/js/1.7384ae4e.chunk.js.map",
+  "static/js/1.ff5b81b3.chunk.js": "/siepomaga/static/js/1.ff5b81b3.chunk.js",
+  "static/js/1.ff5b81b3.chunk.js.map": "/siepomaga/static/js/1.ff5b81b3.chunk.js.map",
   "runtime~main.js": "/siepomaga/static/js/runtime~main.0043b12c.js",
   "runtime~main.js.map": "/siepomaga/static/js/runtime~main.0043b12c.js.map",
   "static/css/1.7347b5f7.chunk.css.map": "/siepomaga/static/css/1.7347b5f7.chunk.css.map",
   "static/media/heart.png": "/siepomaga/static/media/heart.77b6fd29.png",
-  "static/css/main.8c31174a.chunk.css.map": "/siepomaga/static/css/main.8c31174a.chunk.css.map",
+  "static/css/main.4531a09e.chunk.css.map": "/siepomaga/static/css/main.4531a09e.chunk.css.map",
   "index.html": "/siepomaga/index.html",
-  "precache-manifest.1bedada01dc6452159fe0199be1f2b63.js": "/siepomaga/precache-manifest.1bedada01dc6452159fe0199be1f2b63.js",
+  "precache-manifest.25b3f1ab807c1021ee0824ca86bf6fa2.js": "/siepomaga/precache-manifest.25b3f1ab807c1021ee0824ca86bf6fa2.js",
   "service-worker.js": "/siepomaga/service-worker.js"
 }
