@@ -1,7 +1,7 @@
 {
   "main.css": "/siepomaga/static/css/main.7a12dcdc.chunk.css",
-  "main.js": "/siepomaga/static/js/main.560e38be.chunk.js",
-  "main.js.map": "/siepomaga/static/js/main.560e38be.chunk.js.map",
+  "main.js": "/siepomaga/static/js/main.6d5cbcb7.chunk.js",
+  "main.js.map": "/siepomaga/static/js/main.6d5cbcb7.chunk.js.map",
   "static/css/1.c3e1d231.chunk.css": "/siepomaga/static/css/1.c3e1d231.chunk.css",
   "static/js/1.a97dfdae.chunk.js": "/siepomaga/static/js/1.a97dfdae.chunk.js",
   "static/js/1.a97dfdae.chunk.js.map": "/siepomaga/static/js/1.a97dfdae.chunk.js.map",
@@ -12,6 +12,6 @@
   "static/media/heart.png": "/siepomaga/static/media/heart.77b6fd29.png",
   "static/css/1.c3e1d231.chunk.css.map": "/siepomaga/static/css/1.c3e1d231.chunk.css.map",
   "index.html": "/siepomaga/index.html",
-  "precache-manifest.8f7e0b65cf3283b08aaa8be1d81e9480.js": "/siepomaga/precache-manifest.8f7e0b65cf3283b08aaa8be1d81e9480.js",
+  "precache-manifest.e32f482344405fdb23eab5cd05e6ff3e.js": "/siepomaga/precache-manifest.e32f482344405fdb23eab5cd05e6ff3e.js",
   "service-worker.js": "/siepomaga/service-worker.js"
 }

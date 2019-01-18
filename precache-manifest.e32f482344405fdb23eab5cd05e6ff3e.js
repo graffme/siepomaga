@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/siepomaga/static/js/runtime~main.0043b12c.js"
   },
   {
-    "revision": "560e38be90571967a30b",
-    "url": "/siepomaga/static/js/main.560e38be.chunk.js"
+    "revision": "6d5cbcb79fa4eb8ee133",
+    "url": "/siepomaga/static/js/main.6d5cbcb7.chunk.js"
   },
   {
     "revision": "a97dfdaefb88d9878378",
     "url": "/siepomaga/static/js/1.a97dfdae.chunk.js"
   },
   {
-    "revision": "560e38be90571967a30b",
+    "revision": "6d5cbcb79fa4eb8ee133",
     "url": "/siepomaga/static/css/main.7a12dcdc.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/siepomaga/static/css/1.c3e1d231.chunk.css"
   },
   {
-    "revision": "2ad06424e054451bc2ec2c947adf7fd2",
+    "revision": "564cf15bc5b8a7c1adf49894f0f5e804",
     "url": "/siepomaga/index.html"
   }
 ];
