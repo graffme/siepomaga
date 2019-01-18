@@ -11,7 +11,7 @@ const ProgressBar = ({ className }) => {
        <div className={classNames(styles.progressBar, className)}>
          <div className={styles.progressOuter}>
            <div className={styles.progressInner}>
-             <span>{context.funds_current} zł ({context.fund_percentage}%)</span>
+             <span>{context.funds_current} zł ({context.funds_percentage}%)</span>
              <div className={styles.progressPercent}>
                <BubbleAnimation />
              </div>
