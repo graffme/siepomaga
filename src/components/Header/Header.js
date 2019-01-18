@@ -3,9 +3,14 @@ import '../../styles/styles.scss';
 import styles from './Header.module.scss';
 import IconButton from '../IconButton/IconButton.js';
 import ProgressBar from '../ProgressBar/ProgressBar.js';
+import HeartAnimation from '../Animation/HeartAnimation.js';
 
 const Header = ({ title, payments_total_count }) => (
   <header className={styles.header}>
+    <div className={styles.heartsAnimation}>
+      <HeartAnimation />
+    </div>
+
     <div className="container">
       <div className="row align-items-center bottom20">
         <div className="col-lg-9">

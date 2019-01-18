@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import styles from './ProgressBar.module.scss';
-import BubbleAnimation from './BubbleAnimation.js';
+import BubbleAnimation from '../Animation/BubbleAnimation.js';
 import { AppConsumer } from '../../AppContext.js';
 
 const ProgressBar = ({ className }) => {
