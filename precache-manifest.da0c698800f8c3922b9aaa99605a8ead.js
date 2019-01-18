@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/siepomaga/static/js/runtime~main.0043b12c.js"
   },
   {
-    "revision": "5ab306f4c0fba655c5c4",
-    "url": "/siepomaga/static/js/main.5ab306f4.chunk.js"
+    "revision": "20e8fea4da10d3aa9705",
+    "url": "/siepomaga/static/js/main.20e8fea4.chunk.js"
   },
   {
-    "revision": "05a625d1be8c9427882b",
-    "url": "/siepomaga/static/js/1.05a625d1.chunk.js"
+    "revision": "a97dfdaefb88d9878378",
+    "url": "/siepomaga/static/js/1.a97dfdae.chunk.js"
   },
   {
-    "revision": "5ab306f4c0fba655c5c4",
-    "url": "/siepomaga/static/css/main.b1f2eeb8.chunk.css"
+    "revision": "20e8fea4da10d3aa9705",
+    "url": "/siepomaga/static/css/main.e67e2e9a.chunk.css"
   },
   {
-    "revision": "05a625d1be8c9427882b",
-    "url": "/siepomaga/static/css/1.6f20b747.chunk.css"
+    "revision": "a97dfdaefb88d9878378",
+    "url": "/siepomaga/static/css/1.c3e1d231.chunk.css"
   },
   {
-    "revision": "6876b4d7363b2128ed1623607ff2c0d8",
+    "revision": "6da6f4f8ac223afea877b5c39642c8d8",
     "url": "/siepomaga/index.html"
   }
 ];
