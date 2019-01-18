@@ -4,8 +4,10 @@ import PropTypes from 'prop-types';
 import styles from './ListItem.module.scss';
 import avatar from '../../assets/img/face.png';
 import { formatDate } from './helpers.js';
+import Fade from 'react-reveal/Fade';
 
 const ListItem = ({ amount, className, comment_text, paid_at, photo_url, signature }) => (
+  <Fade bottom>
   <div className={classNames(styles.listItem, className)}>
     <div className={styles.avatar}>
       <img alt="avatar" src={photo_url} />
@@ -21,6 +23,7 @@ const ListItem = ({ amount, className, comment_text, paid_at, photo_url, signatu
       <span>{amount} zł</span>
     </div>
   </div>
+  </Fade>
 )
 
 ListItem.propTypes = {
