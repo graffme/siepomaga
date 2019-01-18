@@ -7,6 +7,7 @@ Go to [this page](https://graffme.github.io/siepomaga/) to see the working examp
 ## IDEAS TODO
 - [x] [Feature] Be awesome.
 - [ ] [Bug] Fix the progress bar to accept the percentage props as a width.
+- [ ] [Bug] Fix the 'Pokaż więcej' on FadeIn.
 - [ ] [Feature Must Have] Add a sidebar with 'Wspieraj' button and progress bar after scroll.
 - [ ] [Feature] Add top nav with 'Wspieraj' button on mobile devices after scroll.
 - [ ] [Feature] Refactor animations from CSS3 to JS.
